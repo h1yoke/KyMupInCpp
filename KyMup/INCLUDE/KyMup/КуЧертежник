@@ -1,0 +1,18 @@
+// 'КуЧертежник' library header
+#pragma once
+
+/* КуМир library constant */
+#ifdef __КуМир
+
+/* чертежник' module */
+#define чертежник namespace std; // include
+#define напиши std::cout <<      // write
+#define прочти std::cin >>       // read
+#define нажато (_kbhit())        // ispressed
+
+/* std::string implementation */
+#define строку std::string
+
+#endif /* __КуМир */
+
+/* END OF 'КуЧертежник' FILE */
