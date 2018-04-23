@@ -35,11 +35,11 @@
 #endif /* _DEBUG */
 
 /*** КуМир library include ***/
-#include <КyМир\КуПодключения>
+#include "KyMup\КуПодключения"
 
-#include <КyМир\КуЧертежник>
-#include <КyМир\КуВодолей>
-#include <КyМир\КуСКлассами>
+#include "KyMup\КуЧертежник"
+#include "KyMup\КуВодолей"
+#include "KyMup\КуСКлассами"
 
 /*** Useful supported types redeclaration ***/
 #define объяви                   // let interpretator know about creating variable
