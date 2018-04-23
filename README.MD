@@ -6,7 +6,7 @@ Copyright (c) 2018 КуМирInC++.
 to use __КуМир's simple commands syntax__ and __C++ well known compile and
 working speed__.
 
-For correct lybrary use, it's recommended to switch project encoding to
-UTF-8.
+_For correct library use, it's recommended to switch project encoding to
+UTF-8._
 
-BEFORE DOWNLOADING READ LICENSE.MD FILE
+__BEFORE DOWNLOADING READ LICENSE.MD FILE__
