@@ -6,7 +6,7 @@ Copyright (c) 2018 КуМирInC++.
 language syntax, compiled by any C++ programming language complier.
 This library was not created for any commercial use.
 
-КуМирInC++ doesn't use any files or data that violating КуМир's GNU GPL
+КуМирInC++ doesn't use any files or data that violate КуМир's GNU GPL
 license and exists like separated library. All concurrences should be
 considered like an accident.
 
