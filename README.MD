@@ -2,7 +2,7 @@
 
 Copyright (c) 2018 КуМирInC++.
 
-КуМирInC++ library is a open-source library project, which can help people
+КуМирInC++ library is an open-source library project, that can help people
 to use __КуМир's simple commands syntax__ and __C++ well known compile and
 working speed__.
 
