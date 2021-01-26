@@ -35,8 +35,8 @@
 
 /*** Раздел подключения всех основных файлов библиотеки ***/
 /// TODO: Expand library files
-#include "KyMup\КуЧертежник"
-#include "KyMup\КуВодолей"
+#include "KyMup//КуЧертежник"
+#include "KyMup//КуВодолей"
 
 /*** Раздел переопределений ***/
 #define объяви
