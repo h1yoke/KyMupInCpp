@@ -56,10 +56,11 @@ done
 
 fpath=${!arg}
 
-# TODO: remove UUID generator dependency
-temp=$(uuidgen).cpp
+temp_dir=$(mktemp -d -t kymup)
+temp=$temp_dir/a.cpp
+touch $temp
 cp $fpath $temp &> /dev/null
 
 clang++ -isystem $lpath $temp
-rm $temp
+rm -rf $temp_dir
 [ $run -ne 0 ] && ./a.out
