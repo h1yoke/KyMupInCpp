@@ -62,6 +62,8 @@
 
 #define строка std::string
 #define строку std::string
+#define символ char
+#define символы char
 
 #define пусто void
 

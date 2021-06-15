@@ -18,6 +18,7 @@
 
 /* Стандартные методы чертежника */
 #define напиши std::cout <<
+#define напиши_си printf
 #define прочти std::cin >>
 #define перевод_строки "\n"
 
