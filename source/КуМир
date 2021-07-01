@@ -1,0 +1,124 @@
+/***                                   ***
+  *                                     *
+  * Основной файл библиотеки KyMupInC++ *
+  *                                     *
+ ***                                   ***/
+
+#pragma once
+
+/*** Раздел объявления констант ***/
+
+/* Константа библиотеки */
+#ifndef __КуМир
+#  define __КуМир
+#endif /* !defined(__КуМир) */
+
+/* Константа языка C++ */
+#ifdef __cplusplus
+#  define __сиплюсплюс
+#else
+#  define __си
+#endif /* __cplusplus */
+
+/* Сборка 'release' */
+#ifdef NDEBUG
+#  define НЕТДЕБАГ
+#  define НЕТАНТИЖУК
+#  define РЕЛИЗ
+#endif /* __NDEBUG */
+
+/* Сборка 'debug' */
+#if defined(_DEBUG) || !defined(_NDEBUG)
+#  define ДЕБАГ
+#  define АНТИЖУК
+#endif /* _DEBUG */
+
+/*** Раздел подключения всех основных файлов библиотеки ***/
+/// TODO: Expand library files
+#include "KyMup//КуЧертежник"
+#include "KyMup//КуВодолей"
+#include "KyMup//КуВертун"
+
+/*** Раздел переопределений ***/
+#define объяви
+#define авто auto
+#define неотрицательную unsigned
+#define неотрицательный unsigned
+
+#define константый const
+#define константно const
+#define константую const
+
+#define очень long
+#define большую long
+#define большой long
+#define среднюю short
+#define средний short
+#define маленькую char
+#define маленький char
+#define слово short
+#define стандартную int
+#define стандартный int
+#define целый int
+#define целые int
+#define целая int
+#define целую int
+#define целое int
+
+#ifdef КУМИР_ТОЧНЫЕ_ВЫЧИСЛЕНИЯ
+# define вещественное double
+# define вещественную double
+# define вещественный double
+#else
+# define вещественное float
+# define вещественную float
+# define вещественный float
+#endif (!КУМИР_ТОЧНЫЕ_ВЫЧИСЛЕНИЯ)
+
+#define строка std::string
+#define строку std::string
+#define символ char
+#define символы char
+
+#define пусто void
+
+#define нач {
+#define кон }
+
+#define ТочкаВхода main
+
+#define пока while(
+#define делай )
+#define если if (
+#define то )
+#define иначе else
+#define аесли else if (
+
+#define в
+#define правда true
+#define ложь false
+#define всегда true
+#define никогда false
+#define не !
+#define и &&
+#define или ||
+
+#define равен ==
+#define равно ==
+#define не_равен !=
+
+#define использовать using
+#define используй using
+#define модуль namespace
+
+#define новую new
+#define удали delete
+#define удали_массивную delete[]
+
+#define верни return
+
+/// Works only in msvc :(
+// #define __Ky_slash /
+// #define комм /__Ky_slash
+
+#define говори_по_русски(A) setlocale(LC_ALL, "Russian")
