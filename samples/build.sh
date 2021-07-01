@@ -54,6 +54,7 @@ while [[ $arg -lt $# ]]; do
   esac
 done
 
+rm -f ./a.out
 fpath=${!arg}
 
 temp_dir=$(mktemp -d -t kymup)
