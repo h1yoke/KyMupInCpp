@@ -37,12 +37,17 @@
 /// TODO: Expand library files
 #include "KyMup//КуЧертежник"
 #include "KyMup//КуВодолей"
+#include "KyMup//КуВертун"
 
 /*** Раздел переопределений ***/
 #define объяви
 #define авто auto
 #define неотрицательную unsigned
 #define неотрицательный unsigned
+
+#define константый const
+#define константно const
+#define константую const
 
 #define очень long
 #define большую long
@@ -59,6 +64,16 @@
 #define целая int
 #define целую int
 #define целое int
+
+#ifdef КУМИР_ТОЧНЫЕ_ВЫЧИСЛЕНИЯ
+# define вещественное double
+# define вещественную double
+# define вещественный double
+#else
+# define вещественное float
+# define вещественную float
+# define вещественный float
+#endif (!КУМИР_ТОЧНЫЕ_ВЫЧИСЛЕНИЯ)
 
 #define строка std::string
 #define строку std::string
@@ -94,6 +109,7 @@
 
 #define использовать using
 #define используй using
+#define модуль namespace
 
 #define новую new
 #define удали delete

@@ -14,7 +14,7 @@
 #include <string>
 
 /* Названия модуля 'чертежник' */
-#define чертежник namespace std;
+#define чертежник std
 
 /* Стандартные методы чертежника */
 #define напиши std::cout <<

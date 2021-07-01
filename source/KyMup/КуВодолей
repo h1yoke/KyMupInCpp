@@ -13,7 +13,7 @@
 #include <algorithm>
 
 /* Названия модуля 'водолей' */
-#define водолей namespace std;
+#define водолей std
 
 /* Модуль логгирования функций */
 static bool __КуМирЛоггированиеВодолей = false;
